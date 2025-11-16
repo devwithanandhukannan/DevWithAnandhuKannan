@@ -20,4 +20,5 @@
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph.svg">
 </picture>
 
+![snake gif](https://github.com/DevWithAnandhuKannan/DevWithAnandhuKannan/blob/output/github-snake-dark.svg)
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
