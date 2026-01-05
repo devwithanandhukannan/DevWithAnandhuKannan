@@ -18,6 +18,11 @@
 
 ---
 
+<div align="center"><img width="49%" src="https://github-readme-stats.vercel.app/api?username=DevWithAnandhuKannan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" /> <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=DevWithAnandhuKannan&theme=tokyonight&hide_border=true" /></div><div align="center"><img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevWithAnandhuKannan&theme=tokyonight&hide_border=true&layout=compact&langs_count=10" /></div><div align="center">
+Activity Graph
+
+</div><div align="center"><img src="https://github-profile-trophy.vercel.app/?username=DevWithAnandhuKannan&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=2&column=3" width="90%" /></div>
+
 ## About Me
 
 Full Stack Developer with 3+ years of freelance experience building reliable and scalable web applications. Experienced in developing AI-based solutions, with expertise in full-stack development, machine learning, ethical hacking, and mobile application development.
