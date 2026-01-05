@@ -1,13 +1,10 @@
-
-
 <div align="center">
 
-<!-- Custom Animated Header -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=ANANDHU%20KANNAN&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20×%20AI/ML%20×%20Cybersecurity&descSize=16&descAlignY=51" width="100%"/>
 
 </div>
 
-
+```python
 class AnandhuKannan:
     def __init__(self):
         self.username = "DevWithAnandhuKannan"
@@ -135,6 +132,7 @@ Firebase
 Nginx
 
 Databases:
+
 MongoDB
 PostgreSQL
 MySQL
@@ -150,13 +148,6 @@ Canva
 📊 GITHUB ANALYTICS
 <div align="center"><img width="49%" src="https://github-readme-stats.vercel.app/api?username=DevWithAnandhuKannan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&custom_title=⚡%20GitHub%20Stats" /> <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=DevWithAnandhuKannan&theme=tokyonight&hide_border=true" /><img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevWithAnandhuKannan&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&card_width=600" /></div><div align="center"> <img src="https://github-profile-trophy.vercel.app/?username=DevWithAnandhuKannan&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=1&column=7" width="100%" /> </div>
 🎓 EDUCATION & CERTIFICATIONS
-mermaid
-
-graph LR
-    A[BCA - NSS College<br/>2020-2023] --> B[MCA - FISAT<br/>2023-2025]
-    B --> C[PG Diploma - Blockchain<br/>Digital University Kerala]
-    B --> D[CEH v13<br/>EC-Council]
-    B --> E[SOC Analyst<br/>Certified]
 <div align="center">
 🏅 Professional Certifications
 Certification	Issuer	Status
@@ -165,6 +156,11 @@ Certification	Issuer	Status
 ⚔️ MITRE ATT&CK v13 Foundations	AttackIQ	✅ Certified
 🔐 Complete Cyber Security Course	Udemy	✅ Completed
 ☕ Java Fundamentals	Udemy	✅ Completed
+🔗 PG Diploma - Blockchain	Digital University Kerala	🎓 2025
+Education Timeline:
+
+🎓 MCA - FISAT, Angamaly (2023-2025)
+🎓 BCA - NSS College, Rajakumari (2020-2023)
 </div>
 💼 WHAT I'M UP TO
 JavaScript
@@ -198,23 +194,3 @@ Activity Graph
 Snake animation
 
 </div>
-<div align="center">
-📬 LET'S BUILD SOMETHING EXTRAORDINARY TOGETHER
-ascii
-
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║   💌 Open for freelance projects & collaborations           ║
-║   🤝 Let's connect and create impact                        ║
-║   ⚡ Response time: Usually within 24 hours                 ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-Portfolio
-Email Me
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
-Thanks for stopping by! Let's turn ideas into reality 🚀
-
-Visitor Count
-
-</div> ```
