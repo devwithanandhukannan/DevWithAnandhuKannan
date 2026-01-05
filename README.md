@@ -1,125 +1,138 @@
+# Hi there, I'm Anandhu Kannan
 
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00F7F4&center=true&vCenter=true&random=false&width=600&lines=Hey+%F0%9F%91%8B+I'm+Anandhu+Kannan;Full+Stack+Developer+%F0%9F%9A%80;AI%2FML+Engineer+%F0%9F%A4%96;Cybersecurity+Expert+%F0%9F%94%90;Open+Source+Contributor+%E2%9C%A8" alt="Typing SVG" />
-</h1>
+![snake gif](https://github.com/DevWithAnandhuKannan/DevWithAnandhuKannan/blob/output/github-snake-dark.svg)
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=DevWithAnandhuKannan&label=Profile%20Views&color=0e75b6&style=flat" />
-  <img src="https://img.shields.io/github/followers/DevWithAnandhuKannan?label=Followers&style=social" />
-  <img src="https://img.shields.io/badge/Focus-AI%20%7C%20Security%20%7C%20Web3-brightgreen" />
-</p>
+## Full Stack Developer | AI/ML Enthusiast | Cybersecurity Practitioner
 
-<p align="center">
-  <a href="https://anandhu-kannan.vercel.app"><img src="https://img.shields.io/badge/🌐_Portfolio-FF5722?style=for-the-badge"/></a>
-  <a href="mailto:connect.anandhukannan@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/anandhu-kannan"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://medium.com/@anandhukannan"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"/></a>
-</p>
+**Location:** Kerala, India  
+**Email:** connect.anandhukannan@gmail.com  
+**Portfolio:** [anandhu-kannan.vercel.app](https://anandhu-kannan.vercel.app)
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+### Connect with Me
 
-<img align="right" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anandhu-kannan/)
+[![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/_Anandhu_Kannan)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@anandhukannan)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/kneazllle)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:connect.anandhukannan@gmail.com)
 
-### 👨‍💻 About Me
+---
 
-```yaml
-name: Anandhu Kannan
-located_in: Kerala, India
-current_role: Full Stack Developer & Security Researcher
-education:
-  - Master of Computer Applications (MCA)
-  - PG Diploma in Blockchain
-company: Freelancer
+## About Me
 
-fields_of_interest:
-  - AI & Machine Learning
-  - Cybersecurity & Ethical Hacking
-  - Full Stack Development
-  - Blockchain & Web3
+Full Stack Developer with 3+ years of freelance experience building reliable and scalable web applications. Experienced in developing AI-based solutions, with expertise in full-stack development, machine learning, ethical hacking, and mobile application development.
 
-technical_background:
-  - CEH v13 Certified
-  - SOC Analyst
-  - 3+ Years Freelance Experience
+## Technical Skills
 
-currently_learning:
-  - Advanced AI/ML
-  - Zero Trust Security
-  - DeFi
+### **Languages**
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
-hobbies:
-  - Problem Solving
-  - CTF Challenges
-  - Tech Writing
-````
+### **Frontend Development**
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-## 🏆 Achievements
+### **Backend Development**
+![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=DevWithAnandhuKannan&theme=radical&no-frame=true&no-bg=true&row=2&column=3"/>
-</p>
+### **AI/ML & Data Science**
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 
-## 💻 Tech Stack
+### **Cybersecurity & Ethical Hacking**
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 
-### Programming
+**Security Tools:** Nmap, Burp Suite, Hydra, Metasploit, Aircrack-ng, SQLmap, Nessus  
+**Attack Techniques:** MITM Attacks, WiFi Penetration, Directory Traversal, Steganography, Cryptography  
+**SOC & SIEM:** IBM QRadar, Splunk  
+**Malware Analysis & Vulnerability Assessment**
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge\&logo=python\&logoColor=ffdd54)
-![JavaScript](https://img.shields.io/badge/javascript-323330?style=for-the-badge\&logo=javascript)
-![TypeScript](https://img.shields.io/badge/typescript-007ACC?style=for-the-badge\&logo=typescript)
-![Java](https://img.shields.io/badge/java-ED8B00?style=for-the-badge)
+### **Design & Creative Tools**
+![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
+![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white)
+![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white)
+![DaVinci Resolve](https://img.shields.io/badge/DaVinci%20Resolve-FF9E0B?style=for-the-badge&logo=davinci-resolve&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
 
-### Frontend
+### **DevOps & Cloud**
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
+![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
+![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white)
 
-![React](https://img.shields.io/badge/react-20232a?style=for-the-badge\&logo=react)
-![NextJS](https://img.shields.io/badge/nextjs-black?style=for-the-badge)
-![Tailwind](https://img.shields.io/badge/tailwindcss-38B2AC?style=for-the-badge)
+### **Databases**
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
-### Backend
+### **CMS & No-Code Platforms**
+![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white)
+![Bubble](https://img.shields.io/badge/Bubble-3E1C75?style=for-the-badge&logo=bubble&logoColor=white)
 
-![Django](https://img.shields.io/badge/django-092E20?style=for-the-badge)
-![NodeJS](https://img.shields.io/badge/nodejs-6DA55F?style=for-the-badge)
+**Bubble.io Expertise:** Workflows, Backend Triggers, Custom Plugins, Data API Integration
 
-### AI / ML
-
-![PyTorch](https://img.shields.io/badge/pytorch-EE4C2C?style=for-the-badge)
-![TensorFlow](https://img.shields.io/badge/tensorflow-FF6F00?style=for-the-badge)
-
-### Cybersecurity
-
-```text
-Metasploit | Burp Suite | Nmap | Wireshark | SQLmap
-CEH v13 | SOC Analyst | MITRE ATT&CK
-```
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=DevWithAnandhuKannan&show_icons=true&theme=radical"/>
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=DevWithAnandhuKannan&theme=radical"/>
-</p>
-
-<p align="center">
-  <img width="55%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevWithAnandhuKannan&layout=compact&theme=radical"/>
-</p>
-
-## 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://github.com/DevWithAnandhuKannan/DevWithAnandhuKannan/blob/output/github-contribution-grid-snake-dark.svg"/>
-</p>
-
-## 📫 Connect
-
-<p align="center">
-  <a href="https://anandhu-kannan.vercel.app">Portfolio</a> •
-  <a href="mailto:connect.anandhukannan@gmail.com">Email</a> •
-  <a href="https://linkedin.com/in/anandhu-kannan">LinkedIn</a> •
-  <a href="https://medium.com/@anandhukannan">Medium</a>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
-</p>
+---
 
 
-Just tell me.
+## GitHub Analytics
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=DevWithAnandhuKannan&theme=dark&hide_border=false&include_all_commits=true&count_private=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevWithAnandhuKannan&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
+</div>
+
+<div align="center">
+  <img src="https://nirzak-streak-stats.vercel.app/?user=DevWithAnandhuKannan&theme=dark&hide_border=false" />
+</div>
+
+---
+
+## Education
+
+- **Master of Computer Applications (MCA)** - FISAT, Angamaly *(2023-2025)*
+- **Bachelor of Computer Applications (BCA)** - NSS College, Rajakumari *(2020-2023)*
+
+---
+
+## Achievements
+
+- **Scientia 2K25** - 1st Prize for "Personalized AI-Driven Biotechnology for Drug Discovery"
+- **Best Project Awards** - 1st Prize (BCA) & 2nd Prize (MCA)
+- **FISAT-Annoor Dental College MoU** - Lead developer for institutional collaboration
+- **Student Mentor** - Guided 60+ students in full-stack and AI development
+- **ApplyGoat Startup** - Core developer, 1,000+ active users
+- **Member – Techzineth Lab (FISAT R&D)** - Contributing to institutional R&D projects
+- **NSS Leader & Scout Volunteer** - Directed community and technical outreach initiatives
+
+---
+
+<div align="center">
+  
+### Let's Connect and Build Something Amazing Together
+
+[![](https://visitcount.itsvg.in/api?id=DevWithAnandhuKannan&icon=0&color=0)](https://visitcount.itsvg.in)
+
+</div>
