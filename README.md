@@ -1,196 +1,125 @@
-<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=ANANDHU%20KANNAN&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20×%20AI/ML%20×%20Cybersecurity&descSize=16&descAlignY=51" width="100%"/>
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00F7F4&center=true&vCenter=true&random=false&width=600&lines=Hey+%F0%9F%91%8B+I'm+Anandhu+Kannan;Full+Stack+Developer+%F0%9F%9A%80;AI%2FML+Engineer+%F0%9F%A4%96;Cybersecurity+Expert+%F0%9F%94%90;Open+Source+Contributor+%E2%9C%A8" alt="Typing SVG" />
+</h1>
 
-</div>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=DevWithAnandhuKannan&label=Profile%20Views&color=0e75b6&style=flat" />
+  <img src="https://img.shields.io/github/followers/DevWithAnandhuKannan?label=Followers&style=social" />
+  <img src="https://img.shields.io/badge/Focus-AI%20%7C%20Security%20%7C%20Web3-brightgreen" />
+</p>
 
-```python
-class AnandhuKannan:
-    def __init__(self):
-        self.username = "DevWithAnandhuKannan"
-        self.role = "Full Stack Developer & Security Researcher"
-        self.location = "Kerala, India 🌴"
-        self.current_focus = ["AI-Driven BioTech", "Ethical Hacking", "Scalable Systems"]
-        self.certifications = ["CEH v13", "SOC Analyst", "MITRE ATT&CK"]
-        
-    def say_hi(self):
-        print("""
-        ╔═══════════════════════════════════════════════════════════╗
-        ║  🎯 Building the future, one commit at a time             ║
-        ║  💡 3+ years turning coffee into code                     ║
-        ║  🏆 Award-winning AI researcher & security enthusiast     ║
-        ╚═══════════════════════════════════════════════════════════╝
-        """)
-    
-    def get_in_touch(self):
-        return {
-            "portfolio": "anandhu-kannan.vercel.app",
-            "email": "connect.anandhukannan@gmail.com",
-            "ready_to_collaborate": True
-        }
+<p align="center">
+  <a href="https://anandhu-kannan.vercel.app"><img src="https://img.shields.io/badge/🌐_Portfolio-FF5722?style=for-the-badge"/></a>
+  <a href="mailto:connect.anandhukannan@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/anandhu-kannan"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://medium.com/@anandhukannan"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"/></a>
+</p>
 
-me = AnandhuKannan()
-me.say_hi()
-<div align="center">
-📡 CONNECT WITH ME
-Portfolio
-LinkedIn
-Medium
-Email
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700"></div>
-🎖️ FEATURED ACHIEVEMENTS
-<table> <tr> <td width="50%">
-🧬 AI × Biotechnology
-1st Prize - Scientia 2K25
+<img align="right" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 
-Developed AI-driven drug discovery platform using machine learning for personalized biotechnology solutions
+### 👨‍💻 About Me
 
-</td> <td width="50%">
-🚀 Startup Impact
-ApplyGoat - Core Developer
+```yaml
+name: Anandhu Kannan
+located_in: Kerala, India
+current_role: Full Stack Developer & Security Researcher
+education:
+  - Master of Computer Applications (MCA)
+  - PG Diploma in Blockchain
+company: Freelancer
 
-Built scalable platform serving 1,000+ active users with full-stack architecture
+fields_of_interest:
+  - AI & Machine Learning
+  - Cybersecurity & Ethical Hacking
+  - Full Stack Development
+  - Blockchain & Web3
 
-</td> </tr><tr> <td width="50%">
-👨‍🏫 Community Leader
-Mentored 60+ Students
+technical_background:
+  - CEH v13 Certified
+  - SOC Analyst
+  - 3+ Years Freelance Experience
 
-Guided developers in Full-Stack, AI/ML, and modern web technologies
+currently_learning:
+  - Advanced AI/ML
+  - Zero Trust Security
+  - DeFi
 
-</td> <td width="50%">
-🏆 Academic Excellence
-Consecutive Best Projects
+hobbies:
+  - Problem Solving
+  - CTF Challenges
+  - Tech Writing
+````
 
-1st Prize (BCA) & 2nd Prize (MCA) for innovative technical solutions
+## 🏆 Achievements
 
-</td> </tr> </table>
-⚡ TECH STACK & ARSENAL
-<details open> <summary><b>🔥 Core Technologies</b></summary> <br>
-Languages I Speak Fluently:
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=DevWithAnandhuKannan&theme=radical&no-frame=true&no-bg=true&row=2&column=3"/>
+</p>
 
-Python
-JavaScript
-TypeScript
-Java
-C++
+## 💻 Tech Stack
 
-Frontend Craftsmanship:
+### Programming
 
-React
-React Native
-Redux
-TailwindCSS
-Flutter
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge\&logo=python\&logoColor=ffdd54)
+![JavaScript](https://img.shields.io/badge/javascript-323330?style=for-the-badge\&logo=javascript)
+![TypeScript](https://img.shields.io/badge/typescript-007ACC?style=for-the-badge\&logo=typescript)
+![Java](https://img.shields.io/badge/java-ED8B00?style=for-the-badge)
 
-Backend Engineering:
+### Frontend
 
-Django
-Flask
-Node.js
-Express
-Socket.io
+![React](https://img.shields.io/badge/react-20232a?style=for-the-badge\&logo=react)
+![NextJS](https://img.shields.io/badge/nextjs-black?style=for-the-badge)
+![Tailwind](https://img.shields.io/badge/tailwindcss-38B2AC?style=for-the-badge)
 
-</details><details> <summary><b>🤖 AI/ML & Data Science</b></summary> <br>
-PyTorch
-TensorFlow
-scikit-learn
-OpenCV
-Pandas
-NumPy
+### Backend
 
-</details><details> <summary><b>🛡️ Cybersecurity & Ethical Hacking</b></summary> <br>
-Bash
+![Django](https://img.shields.io/badge/django-092E20?style=for-the-badge)
+![NodeJS](https://img.shields.io/badge/nodejs-6DA55F?style=for-the-badge)
 
-┌──(anandhu㉿kali)-[~/arsenal]
-└─$ cat security_tools.txt
+### AI / ML
 
-[+] Penetration Testing:
-    • Metasploit Framework  • Burp Suite Pro  • Nmap  • Hydra
-    
-[+] Network Security:
-    • Wireshark  • Aircrack-ng  • MITM Attacks  • WiFi Penetration
-    
-[+] Web Security:
-    • SQLmap  • Directory Traversal  • OWASP Top 10
-    
-[+] SOC & SIEM:
-    • IBM QRadar  • Splunk  • MITRE ATT&CK Framework
-    
-[+] Analysis:
-    • Malware Analysis  • Vulnerability Assessment  • Nessus
-    
-[+] Certifications:
-    ✓ Certified Ethical Hacker (CEH v13)
-    ✓ SOC Analyst & Penetration Tester
-    ✓ MITRE ATT&CK Foundations
-</details><details> <summary><b>☁️ DevOps & Cloud Infrastructure</b></summary> <br>
-Docker
-AWS
-Git
-Firebase
-Nginx
+![PyTorch](https://img.shields.io/badge/pytorch-EE4C2C?style=for-the-badge)
+![TensorFlow](https://img.shields.io/badge/tensorflow-FF6F00?style=for-the-badge)
 
-Databases:
+### Cybersecurity
 
-MongoDB
-PostgreSQL
-MySQL
+```text
+Metasploit | Burp Suite | Nmap | Wireshark | SQLmap
+CEH v13 | SOC Analyst | MITRE ATT&CK
+```
 
-</details><details> <summary><b>🎨 Design & Creative Suite</b></summary> <br>
-Figma
-Adobe Photoshop
-Adobe Premiere Pro
-DaVinci Resolve
-Canva
+## 📊 GitHub Stats
 
-</details>
-📊 GITHUB ANALYTICS
-<div align="center"><img width="49%" src="https://github-readme-stats.vercel.app/api?username=DevWithAnandhuKannan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&custom_title=⚡%20GitHub%20Stats" /> <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=DevWithAnandhuKannan&theme=tokyonight&hide_border=true" /><img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevWithAnandhuKannan&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&card_width=600" /></div><div align="center"> <img src="https://github-profile-trophy.vercel.app/?username=DevWithAnandhuKannan&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=1&column=7" width="100%" /> </div>
-🎓 EDUCATION & CERTIFICATIONS
-<div align="center">
-🏅 Professional Certifications
-Certification	Issuer	Status
-🎖️ Certified Ethical Hacker (CEH v13)	EC-Council	✅ Certified
-🛡️ SOC Analyst & Penetration Tester	Professional	✅ Certified
-⚔️ MITRE ATT&CK v13 Foundations	AttackIQ	✅ Certified
-🔐 Complete Cyber Security Course	Udemy	✅ Completed
-☕ Java Fundamentals	Udemy	✅ Completed
-🔗 PG Diploma - Blockchain	Digital University Kerala	🎓 2025
-Education Timeline:
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=DevWithAnandhuKannan&show_icons=true&theme=radical"/>
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=DevWithAnandhuKannan&theme=radical"/>
+</p>
 
-🎓 MCA - FISAT, Angamaly (2023-2025)
-🎓 BCA - NSS College, Rajakumari (2020-2023)
-</div>
-💼 WHAT I'M UP TO
-JavaScript
+<p align="center">
+  <img width="55%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevWithAnandhuKannan&layout=compact&theme=radical"/>
+</p>
 
-const currentStatus = {
-    learning: ["Advanced AI/ML Algorithms", "Zero Trust Architecture", "Web3 & Blockchain"],
-    working_on: ["AI-Driven BioTech Solutions", "Scalable SaaS Platforms"],
-    collaborating: ["Techzineth Lab (R&D)", "FISAT-Annoor Dental College MoU"],
-    open_to: ["Freelance Projects", "Open Source Contributions", "Research Collaborations"],
-    fun_fact: "I debug code faster than I debug my life 😄"
-};
-🌟 NOTABLE CONTRIBUTIONS
-<div align="center">
-🚀 Project	📝 Description	🏆 Impact
-AI Drug Discovery Platform	Personalized biotechnology using ML	🥇 1st Prize Scientia 2K25
-ApplyGoat Startup	Full-stack platform development	👥 1,000+ Active Users
-FISAT-Annoor MoU	Lead developer for institutional collab	🏥 Healthcare Innovation
-Student Mentorship	Full-stack & AI training program	🎓 60+ Students Guided
-Techzineth Lab	R&D institutional projects	🔬 Active Contributor
-</div>
-📈 CONTRIBUTION GRAPH
-<div align="center">
-Activity Graph
+## 🐍 Contribution Snake
 
-</div>
-<div align="center">
-💭 Random Dev Quote
+<p align="center">
+  <img src="https://github.com/DevWithAnandhuKannan/DevWithAnandhuKannan/blob/output/github-contribution-grid-snake-dark.svg"/>
+</p>
+
+## 📫 Connect
+
+<p align="center">
+  <a href="https://anandhu-kannan.vercel.app">Portfolio</a> •
+  <a href="mailto:connect.anandhukannan@gmail.com">Email</a> •
+  <a href="https://linkedin.com/in/anandhu-kannan">LinkedIn</a> •
+  <a href="https://medium.com/@anandhukannan">Medium</a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+</p>
 
 
-🐍 Contribution Snake
-Snake animation
-
-</div>
+Just tell me.
