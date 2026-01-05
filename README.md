@@ -17,11 +17,29 @@
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:connect.anandhukannan@gmail.com)
 
 ---
+<div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=DevWithAnandhuKannan&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img width="49%" src="https://streak-stats.demolab.com?user=DevWithAnandhuKannan&theme=tokyonight&hide_border=true" />
+</div>
 
-<div align="center"><img width="49%" src="https://github-readme-stats.vercel.app/api?username=DevWithAnandhuKannan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" /> <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=DevWithAnandhuKannan&theme=tokyonight&hide_border=true" /></div><div align="center"><img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevWithAnandhuKannan&theme=tokyonight&hide_border=true&layout=compact&langs_count=10" /></div><div align="center">
-Activity Graph
+<br/>
 
-</div><div align="center"><img src="https://github-profile-trophy.vercel.app/?username=DevWithAnandhuKannan&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=2&column=3" width="90%" /></div>
+<div align="center">
+  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevWithAnandhuKannan&theme=tokyonight&hide_border=true&layout=compact&langs_count=10" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DevWithAnandhuKannan&theme=tokyo-night" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=DevWithAnandhuKannan&theme=tokyonight&no-frame=true&margin-w=4&row=2&column=3" width="90%" />
+</div>
+
 
 ## About Me
 
