@@ -7,7 +7,7 @@
 
 </div>
 
-```python
+
 class AnandhuKannan:
     def __init__(self):
         self.username = "DevWithAnandhuKannan"
