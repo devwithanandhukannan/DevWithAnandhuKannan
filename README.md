@@ -1,138 +1,220 @@
-# Hi there, I'm Anandhu Kannan
 
-![snake gif](https://github.com/DevWithAnandhuKannan/DevWithAnandhuKannan/blob/output/github-snake-dark.svg)
-
-## Full Stack Developer | AI/ML Enthusiast | Cybersecurity Practitioner
-
-**Location:** Kerala, India  
-**Email:** connect.anandhukannan@gmail.com  
-**Portfolio:** [anandhu-kannan.vercel.app](https://anandhu-kannan.vercel.app)
-
-### Connect with Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anandhu-kannan/)
-[![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/_Anandhu_Kannan)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@anandhukannan)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/kneazllle)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:connect.anandhukannan@gmail.com)
-
----
-
-## About Me
-
-Full Stack Developer with 3+ years of freelance experience building reliable and scalable web applications. Experienced in developing AI-based solutions, with expertise in full-stack development, machine learning, ethical hacking, and mobile application development.
-
-## Technical Skills
-
-### **Languages**
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-
-### **Frontend Development**
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-
-### **Backend Development**
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
-
-### **AI/ML & Data Science**
-![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-
-### **Cybersecurity & Ethical Hacking**
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-
-**Security Tools:** Nmap, Burp Suite, Hydra, Metasploit, Aircrack-ng, SQLmap, Nessus  
-**Attack Techniques:** MITM Attacks, WiFi Penetration, Directory Traversal, Steganography, Cryptography  
-**SOC & SIEM:** IBM QRadar, Splunk  
-**Malware Analysis & Vulnerability Assessment**
-
-### **Design & Creative Tools**
-![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
-![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white)
-![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white)
-![DaVinci Resolve](https://img.shields.io/badge/DaVinci%20Resolve-FF9E0B?style=for-the-badge&logo=davinci-resolve&logoColor=white)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
-
-### **DevOps & Cloud**
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
-![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
-![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white)
-
-### **Databases**
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-
-### **CMS & No-Code Platforms**
-![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white)
-![Bubble](https://img.shields.io/badge/Bubble-3E1C75?style=for-the-badge&logo=bubble&logoColor=white)
-
-**Bubble.io Expertise:** Workflows, Backend Triggers, Custom Plugins, Data API Integration
-
----
-
-
-## GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=DevWithAnandhuKannan&theme=dark&hide_border=false&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevWithAnandhuKannan&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
+
+<!-- Custom Animated Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=ANANDHU%20KANNAN&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20×%20AI/ML%20×%20Cybersecurity&descSize=16&descAlignY=51" width="100%"/>
+
 </div>
 
+```python
+class AnandhuKannan:
+    def __init__(self):
+        self.username = "DevWithAnandhuKannan"
+        self.role = "Full Stack Developer & Security Researcher"
+        self.location = "Kerala, India 🌴"
+        self.current_focus = ["AI-Driven BioTech", "Ethical Hacking", "Scalable Systems"]
+        self.certifications = ["CEH v13", "SOC Analyst", "MITRE ATT&CK"]
+        
+    def say_hi(self):
+        print("""
+        ╔═══════════════════════════════════════════════════════════╗
+        ║  🎯 Building the future, one commit at a time             ║
+        ║  💡 3+ years turning coffee into code                     ║
+        ║  🏆 Award-winning AI researcher & security enthusiast     ║
+        ╚═══════════════════════════════════════════════════════════╝
+        """)
+    
+    def get_in_touch(self):
+        return {
+            "portfolio": "anandhu-kannan.vercel.app",
+            "email": "connect.anandhukannan@gmail.com",
+            "ready_to_collaborate": True
+        }
+
+me = AnandhuKannan()
+me.say_hi()
 <div align="center">
-  <img src="https://nirzak-streak-stats.vercel.app/?user=DevWithAnandhuKannan&theme=dark&hide_border=false" />
-</div>
+📡 CONNECT WITH ME
+Portfolio
+LinkedIn
+Medium
+Email
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700"></div>
+🎖️ FEATURED ACHIEVEMENTS
+<table> <tr> <td width="50%">
+🧬 AI × Biotechnology
+1st Prize - Scientia 2K25
 
-## Education
+Developed AI-driven drug discovery platform using machine learning for personalized biotechnology solutions
 
-- **Master of Computer Applications (MCA)** - FISAT, Angamaly *(2023-2025)*
-- **Bachelor of Computer Applications (BCA)** - NSS College, Rajakumari *(2020-2023)*
+</td> <td width="50%">
+🚀 Startup Impact
+ApplyGoat - Core Developer
 
----
+Built scalable platform serving 1,000+ active users with full-stack architecture
 
-## Achievements
+</td> </tr><tr> <td width="50%">
+👨‍🏫 Community Leader
+Mentored 60+ Students
 
-- **Scientia 2K25** - 1st Prize for "Personalized AI-Driven Biotechnology for Drug Discovery"
-- **Best Project Awards** - 1st Prize (BCA) & 2nd Prize (MCA)
-- **FISAT-Annoor Dental College MoU** - Lead developer for institutional collaboration
-- **Student Mentor** - Guided 60+ students in full-stack and AI development
-- **ApplyGoat Startup** - Core developer, 1,000+ active users
-- **Member – Techzineth Lab (FISAT R&D)** - Contributing to institutional R&D projects
-- **NSS Leader & Scout Volunteer** - Directed community and technical outreach initiatives
+Guided developers in Full-Stack, AI/ML, and modern web technologies
 
----
+</td> <td width="50%">
+🏆 Academic Excellence
+Consecutive Best Projects
 
+1st Prize (BCA) & 2nd Prize (MCA) for innovative technical solutions
+
+</td> </tr> </table>
+⚡ TECH STACK & ARSENAL
+<details open> <summary><b>🔥 Core Technologies</b></summary> <br>
+Languages I Speak Fluently:
+
+Python
+JavaScript
+TypeScript
+Java
+C++
+
+Frontend Craftsmanship:
+
+React
+React Native
+Redux
+TailwindCSS
+Flutter
+
+Backend Engineering:
+
+Django
+Flask
+Node.js
+Express
+Socket.io
+
+</details><details> <summary><b>🤖 AI/ML & Data Science</b></summary> <br>
+PyTorch
+TensorFlow
+scikit-learn
+OpenCV
+Pandas
+NumPy
+
+</details><details> <summary><b>🛡️ Cybersecurity & Ethical Hacking</b></summary> <br>
+Bash
+
+┌──(anandhu㉿kali)-[~/arsenal]
+└─$ cat security_tools.txt
+
+[+] Penetration Testing:
+    • Metasploit Framework  • Burp Suite Pro  • Nmap  • Hydra
+    
+[+] Network Security:
+    • Wireshark  • Aircrack-ng  • MITM Attacks  • WiFi Penetration
+    
+[+] Web Security:
+    • SQLmap  • Directory Traversal  • OWASP Top 10
+    
+[+] SOC & SIEM:
+    • IBM QRadar  • Splunk  • MITRE ATT&CK Framework
+    
+[+] Analysis:
+    • Malware Analysis  • Vulnerability Assessment  • Nessus
+    
+[+] Certifications:
+    ✓ Certified Ethical Hacker (CEH v13)
+    ✓ SOC Analyst & Penetration Tester
+    ✓ MITRE ATT&CK Foundations
+</details><details> <summary><b>☁️ DevOps & Cloud Infrastructure</b></summary> <br>
+Docker
+AWS
+Git
+Firebase
+Nginx
+
+Databases:
+MongoDB
+PostgreSQL
+MySQL
+
+</details><details> <summary><b>🎨 Design & Creative Suite</b></summary> <br>
+Figma
+Adobe Photoshop
+Adobe Premiere Pro
+DaVinci Resolve
+Canva
+
+</details>
+📊 GITHUB ANALYTICS
+<div align="center"><img width="49%" src="https://github-readme-stats.vercel.app/api?username=DevWithAnandhuKannan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&custom_title=⚡%20GitHub%20Stats" /> <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=DevWithAnandhuKannan&theme=tokyonight&hide_border=true" /><img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevWithAnandhuKannan&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&card_width=600" /></div><div align="center"> <img src="https://github-profile-trophy.vercel.app/?username=DevWithAnandhuKannan&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=1&column=7" width="100%" /> </div>
+🎓 EDUCATION & CERTIFICATIONS
+mermaid
+
+graph LR
+    A[BCA - NSS College<br/>2020-2023] --> B[MCA - FISAT<br/>2023-2025]
+    B --> C[PG Diploma - Blockchain<br/>Digital University Kerala]
+    B --> D[CEH v13<br/>EC-Council]
+    B --> E[SOC Analyst<br/>Certified]
 <div align="center">
-  
-### Let's Connect and Build Something Amazing Together
+🏅 Professional Certifications
+Certification	Issuer	Status
+🎖️ Certified Ethical Hacker (CEH v13)	EC-Council	✅ Certified
+🛡️ SOC Analyst & Penetration Tester	Professional	✅ Certified
+⚔️ MITRE ATT&CK v13 Foundations	AttackIQ	✅ Certified
+🔐 Complete Cyber Security Course	Udemy	✅ Completed
+☕ Java Fundamentals	Udemy	✅ Completed
+</div>
+💼 WHAT I'M UP TO
+JavaScript
 
-[![](https://visitcount.itsvg.in/api?id=DevWithAnandhuKannan&icon=0&color=0)](https://visitcount.itsvg.in)
+const currentStatus = {
+    learning: ["Advanced AI/ML Algorithms", "Zero Trust Architecture", "Web3 & Blockchain"],
+    working_on: ["AI-Driven BioTech Solutions", "Scalable SaaS Platforms"],
+    collaborating: ["Techzineth Lab (R&D)", "FISAT-Annoor Dental College MoU"],
+    open_to: ["Freelance Projects", "Open Source Contributions", "Research Collaborations"],
+    fun_fact: "I debug code faster than I debug my life 😄"
+};
+🌟 NOTABLE CONTRIBUTIONS
+<div align="center">
+🚀 Project	📝 Description	🏆 Impact
+AI Drug Discovery Platform	Personalized biotechnology using ML	🥇 1st Prize Scientia 2K25
+ApplyGoat Startup	Full-stack platform development	👥 1,000+ Active Users
+FISAT-Annoor MoU	Lead developer for institutional collab	🏥 Healthcare Innovation
+Student Mentorship	Full-stack & AI training program	🎓 60+ Students Guided
+Techzineth Lab	R&D institutional projects	🔬 Active Contributor
+</div>
+📈 CONTRIBUTION GRAPH
+<div align="center">
+Activity Graph
 
 </div>
+<div align="center">
+💭 Random Dev Quote
+
+
+🐍 Contribution Snake
+Snake animation
+
+</div>
+<div align="center">
+📬 LET'S BUILD SOMETHING EXTRAORDINARY TOGETHER
+ascii
+
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║   💌 Open for freelance projects & collaborations           ║
+║   🤝 Let's connect and create impact                        ║
+║   ⚡ Response time: Usually within 24 hours                 ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+Portfolio
+Email Me
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+Thanks for stopping by! Let's turn ideas into reality 🚀
+
+Visitor Count
+
+</div> ```
