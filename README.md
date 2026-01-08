@@ -10,31 +10,93 @@
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-### Languages
-![Python](https://skillicons.dev/icons?i=python,javascript,typescript,java,c,cpp,dart)
+<details>
+<summary><b>View All Tech Stack</b></summary>
+<br/>
 
-### Frontend & Mobile Development
-![Frontend](https://skillicons.dev/icons?i=react,flutter,redux,tailwind,bootstrap,html,css)
+**Languages**
 
-### Backend & Databases
-![Backend](https://skillicons.dev/icons?i=django,flask,nodejs,express,mongodb,mysql,postgres,firebase)
+<img src="https://skillicons.dev/icons?i=python,javascript,typescript,java,c,cpp,dart&perline=10" height="40" />
 
-### DevOps & Tools
-![DevOps](https://skillicons.dev/icons?i=docker,aws,git,github,nginx,linux,androidstudio,figma)
+**Frontend & Mobile Development**
 
-### AI/ML
-![AI/ML](https://skillicons.dev/icons?i=pytorch,tensorflow,opencv)
+<img src="https://skillicons.dev/icons?i=react,flutter,redux,tailwind,bootstrap,html,css&perline=10" height="40" />
 
-### Cybersecurity
-![Security](https://skillicons.dev/icons?i=kali,linux)
+**Backend & Databases**
+
+<img src="https://skillicons.dev/icons?i=django,flask,nodejs,express,mongodb,mysql,postgres,firebase&perline=10" height="40" />
+
+**DevOps & Tools**
+
+<img src="https://skillicons.dev/icons?i=docker,aws,git,github,nginx,linux,androidstudio,figma&perline=10" height="40" />
+
+**AI/ML**
+
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv&perline=10" height="40" />
+
+**Cybersecurity**
+
+<img src="https://skillicons.dev/icons?i=kali,linux&perline=10" height="40" />
 
 **Tools:** Nmap • Burp Suite • Metasploit • Wireshark • SQLmap • Hydra
 
+</details>
+
+<details>
+<summary><b>Languages</b></summary>
+<br/>
+
+<img src="https://skillicons.dev/icons?i=python,javascript,typescript,java,c,cpp,dart&perline=10" height="40" />
+
+</details>
+
+<details>
+<summary><b>Frontend & Mobile Development</b></summary>
+<br/>
+
+<img src="https://skillicons.dev/icons?i=react,flutter,redux,tailwind,bootstrap,html,css&perline=10" height="40" />
+
+</details>
+
+<details>
+<summary><b>Backend & Databases</b></summary>
+<br/>
+
+<img src="https://skillicons.dev/icons?i=django,flask,nodejs,express,mongodb,mysql,postgres,firebase&perline=10" height="40" />
+
+</details>
+
+<details>
+<summary><b>DevOps & Tools</b></summary>
+<br/>
+
+<img src="https://skillicons.dev/icons?i=docker,aws,git,github,nginx,linux,androidstudio,figma&perline=10" height="40" />
+
+</details>
+
+<details>
+<summary><b>AI/ML</b></summary>
+<br/>
+
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv&perline=10" height="40" />
+
+</details>
+
+<details>
+<summary><b>Cybersecurity</b></summary>
+<br/>
+
+<img src="https://skillicons.dev/icons?i=kali,linux&perline=10" height="40" />
+
+**Tools:** Nmap • Burp Suite • Metasploit • Wireshark • SQLmap • Hydra
+
+</details>
+
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <img src="https://github.com/DevWithAnandhuKannan/DevWithAnandhuKannan/blob/output/github-snake-dark.svg" alt="GitHub Contribution Snake" />
 
