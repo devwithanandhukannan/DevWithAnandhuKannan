@@ -16,6 +16,10 @@
 
 ---
 
+<img src="https://raw.githubusercontent.com/DevWithAnandhuKannan/DevWithAnandhuKannan/output/github-snake-dark.svg" alt="GitHub Contribution Snake" />
+
+---
+
 <details>
 <summary><b>Languages</b></summary>
 <br/>
@@ -55,11 +59,4 @@
 </details>
 
 ---
-
-## GitHub Stats
-
-<img src="https://raw.githubusercontent.com/DevWithAnandhuKannan/DevWithAnandhuKannan/output/github-snake-dark.svg" alt="GitHub Contribution Snake" />
-
----
-
 <img src="https://komarev.com/ghpvc/?username=DevWithAnandhuKannan&color=blueviolet&style=flat&label=Profile+Views" alt="Profile Views" />
