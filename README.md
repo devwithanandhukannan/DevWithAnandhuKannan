@@ -12,7 +12,7 @@
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=python,javascript,typescript,java,c,cpp,dart,react,flutter,redux,tailwind,bootstrap,html,css,django,flask,nodejs,express,mongodb,mysql,postgres,docker,aws,git,github,nginx,linux,androidstudio,figma,pytorch,tensorflow,opencv,firebase,kali&perline=10" height="40" />
+<img src="https://skillicons.dev/icons?i=python,javascript,typescript,java,c,cpp,dart,react,flutter,redux,tailwind,bootstrap,html,css,django,flask,nodejs,express,mongodb,mysql,postgres,docker,aws,git,github,nginx,linux,androidstudio,figma,pytorch,tensorflow,opencv,firebase,kali" height="40" />
 
 ---
 
