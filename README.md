@@ -15,32 +15,8 @@
 <details>
 <summary><b>View All Tech Stack</b></summary>
 <br/>
-
-**Languages**
-
-<img src="https://skillicons.dev/icons?i=python,javascript,typescript,java,c,cpp,dart&perline=10" height="40" />
-
-**Frontend & Mobile Development**
-
-<img src="https://skillicons.dev/icons?i=react,flutter,redux,tailwind,bootstrap,html,css&perline=10" height="40" />
-
-**Backend & Databases**
-
-<img src="https://skillicons.dev/icons?i=django,flask,nodejs,express,mongodb,mysql,postgres,firebase&perline=10" height="40" />
-
-**DevOps & Tools**
-
-<img src="https://skillicons.dev/icons?i=docker,aws,git,github,nginx,linux,androidstudio,figma&perline=10" height="40" />
-
-**AI/ML**
-
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv&perline=10" height="40" />
-
-**Cybersecurity**
-
-<img src="https://skillicons.dev/icons?i=kali,linux&perline=10" height="40" />
-
-**Tools:** Nmap • Burp Suite • Metasploit • Wireshark • SQLmap • Hydra
+<img src="https://skillicons.dev/icons?i=python,javascript,typescript,java,c,cpp,dart,react,flutter,redux,tailwind,bootstrap,html,css,django,flask,nodejs,express,mongodb,mysql,docker,aws,git,github,nginx,linux,androidstudio,figma,postgres,pytorch,tensorflow,opencv,firebase,kali,linux&perline=10" height="40" />
+** Nmap • Burp Suite • Metasploit • Wireshark • SQLmap • Hydra
 
 </details>
 
