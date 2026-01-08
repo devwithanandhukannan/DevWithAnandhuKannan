@@ -9,17 +9,12 @@
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:connect.anandhukannan@gmail.com)
 
 ---
-
-## Tech Stack
-
-<details>
-<summary><b>View All Tech Stack</b></summary>
 <br/>
 <img src="https://skillicons.dev/icons?i=python,javascript,typescript,java,c,cpp,dart,react,flutter,redux,tailwind,bootstrap,html,css,django,flask,nodejs,express,mongodb,mysql,docker,aws,git,github,nginx,linux,androidstudio,figma,postgres,pytorch,tensorflow,opencv,firebase,kali,linux&perline=10" height="40" />
-</details>
+
 
 <details>
-<summary><b>Languages</b></summary>
+<summary>Languages</summary>
 <br/>
 
 <img src="https://skillicons.dev/icons?i=python,javascript,typescript,java,c,cpp,dart&perline=10" height="40" />
