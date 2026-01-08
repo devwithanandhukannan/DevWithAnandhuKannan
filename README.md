@@ -16,8 +16,6 @@
 <summary><b>View All Tech Stack</b></summary>
 <br/>
 <img src="https://skillicons.dev/icons?i=python,javascript,typescript,java,c,cpp,dart,react,flutter,redux,tailwind,bootstrap,html,css,django,flask,nodejs,express,mongodb,mysql,docker,aws,git,github,nginx,linux,androidstudio,figma,postgres,pytorch,tensorflow,opencv,firebase,kali,linux&perline=10" height="40" />
-** Nmap • Burp Suite • Metasploit • Wireshark • SQLmap • Hydra
-
 </details>
 
 <details>
