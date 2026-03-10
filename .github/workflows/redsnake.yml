@@ -1,0 +1,767 @@
+name: Dynamic Red Contribution Snake
+
+on:
+  # Runs daily at midnight UTC
+  schedule:
+    - cron: "0 0 * * *"
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+  # Run on push to main
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+
+    steps:
+      # Step 1: Checkout Repository
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # Step 2: Setup Node.js for custom script
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      # Step 3: Fetch contribution data and calculate snake length
+      - name: Fetch Contribution Data
+        id: contributions
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const query = `
+              query($username: String!) {
+                user(login: $username) {
+                  contributionsCollection {
+                    totalCommitContributions
+                    restrictedContributionsCount
+                    contributionCalendar {
+                      totalContributions
+                      weeks {
+                        contributionDays {
+                          contributionCount
+                          date
+                          color
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `;
+
+            const variables = {
+              username: context.repo.owner
+            };
+
+            const result = await github.graphql(query, variables);
+            const contributions = result.user.contributionsCollection;
+            const totalCommits = contributions.totalCommitContributions;
+            const totalContributions = contributions.contributionCalendar.totalContributions;
+
+            console.log(`Total Commits: ${totalCommits}`);
+            console.log(`Total Contributions: ${totalContributions}`);
+
+            // Calculate snake length based on commits
+            // Every commit adds to the snake length
+            const snakeLength = Math.max(5, Math.min(totalCommits, 200));
+
+            core.setOutput('total_commits', totalCommits);
+            core.setOutput('total_contributions', totalContributions);
+            core.setOutput('snake_length', snakeLength);
+
+            // Extract weekly data for the contribution graph
+            const weeks = contributions.contributionCalendar.weeks;
+            const weeklyData = weeks.map(week => ({
+              days: week.contributionDays.map(day => ({
+                count: day.contributionCount,
+                date: day.date
+              }))
+            }));
+
+            const fs = require('fs');
+            fs.writeFileSync('contribution-data.json', JSON.stringify({
+              totalCommits,
+              totalContributions,
+              snakeLength,
+              weeks: weeklyData
+            }, null, 2));
+
+      # Step 4: Generate Custom Red Snake SVG
+      - name: Generate Custom Red Contribution Snake
+        run: |
+          mkdir -p dist
+
+          cat > generate-snake.js << 'SCRIPT'
+          const fs = require('fs');
+
+          // Read contribution data
+          const data = JSON.parse(fs.readFileSync('contribution-data.json', 'utf8'));
+          const { totalCommits, totalContributions, snakeLength, weeks } = data;
+
+          // ============================================
+          // COLOR CONFIGURATION - ALL RED THEME
+          // ============================================
+          const colors = {
+            empty: '#161B22',
+            level1: '#67000D',
+            level2: '#A50F15',
+            level3: '#CB181D',
+            level4: '#EF3B2D',
+            level5: '#FB6A4A',
+            snakeHead: '#FF0000',
+            snakeBody: '#CC0000',
+            snakeBodyAlt: '#FF3333',
+            snakeTail: '#990000',
+            snakeEye: '#FFFFFF',
+            snakeTongue: '#FF6666',
+            background: '#0D1117',
+            text: '#FF4444',
+            border: '#FF000033',
+            glow: '#FF0000'
+          };
+
+          // ============================================
+          // GET CONTRIBUTION LEVEL
+          // ============================================
+          function getContributionColor(count) {
+            if (count === 0) return colors.empty;
+            if (count <= 3) return colors.level1;
+            if (count <= 6) return colors.level2;
+            if (count <= 9) return colors.level3;
+            if (count <= 12) return colors.level4;
+            return colors.level5;
+          }
+
+          // ============================================
+          // BUILD CONTRIBUTION GRID
+          // ============================================
+          const cellSize = 13;
+          const cellGap = 3;
+          const gridOffsetX = 50;
+          const gridOffsetY = 80;
+
+          let contributionCells = '';
+          let allCells = [];
+
+          // Last 52 weeks only
+          const recentWeeks = weeks.slice(-52);
+
+          recentWeeks.forEach((week, weekIndex) => {
+            week.days.forEach((day, dayIndex) => {
+              const x = gridOffsetX + weekIndex * (cellSize + cellGap);
+              const y = gridOffsetY + dayIndex * (cellSize + cellGap);
+              const color = getContributionColor(day.count);
+
+              allCells.push({ x, y, count: day.count, date: day.date });
+
+              contributionCells += `
+                <rect
+                  x="${x}"
+                  y="${y}"
+                  width="${cellSize}"
+                  height="${cellSize}"
+                  rx="2"
+                  ry="2"
+                  fill="${color}"
+                  class="contribution-cell"
+                  data-count="${day.count}"
+                  data-date="${day.date}"
+                >
+                  <title>${day.date}: ${day.count} contributions</title>
+                </rect>`;
+            });
+          });
+
+          // ============================================
+          // BUILD SNAKE PATH
+          // ============================================
+          // Snake eats cells with contributions (non-zero)
+          const eatenCells = allCells
+            .filter(cell => cell.count > 0)
+            .slice(0, snakeLength);
+
+          // Create snake body segments based on eaten cells
+          let snakeSegments = '';
+          const segmentCount = Math.min(snakeLength, eatenCells.length);
+
+          // Snake path follows eaten cells
+          let snakePath = [];
+          for (let i = 0; i < segmentCount; i++) {
+            const cell = eatenCells[i];
+            snakePath.push({ x: cell.x, y: cell.y });
+          }
+
+          // If not enough eaten cells, extend snake along the grid
+          if (snakePath.length < 5) {
+            for (let i = snakePath.length; i < 5; i++) {
+              snakePath.push({
+                x: gridOffsetX + i * (cellSize + cellGap),
+                y: gridOffsetY
+              });
+            }
+          }
+
+          // ============================================
+          // ANIMATE SNAKE EATING
+          // ============================================
+          const totalDuration = 20;
+          const stepDuration = totalDuration / Math.max(segmentCount, 1);
+
+          // Create eaten cell animations (cells disappear when eaten)
+          let eatenAnimations = '';
+          eatenCells.forEach((cell, index) => {
+            const delay = index * stepDuration;
+            eatenAnimations += `
+              <rect
+                x="${cell.x}"
+                y="${cell.y}"
+                width="${cellSize}"
+                height="${cellSize}"
+                rx="2"
+                ry="2"
+                fill="${getContributionColor(cell.count)}"
+                class="eaten-cell"
+              >
+                <animate
+                  attributeName="opacity"
+                  from="1"
+                  to="0"
+                  begin="${delay}s"
+                  dur="${stepDuration}s"
+                  fill="freeze"
+                  repeatCount="indefinite"
+                />
+                <animate
+                  attributeName="width"
+                  from="${cellSize}"
+                  to="0"
+                  begin="${delay}s"
+                  dur="${stepDuration}s"
+                  fill="freeze"
+                  repeatCount="indefinite"
+                />
+                <animate
+                  attributeName="height"
+                  from="${cellSize}"
+                  to="0"
+                  begin="${delay}s"
+                  dur="${stepDuration}s"
+                  fill="freeze"
+                  repeatCount="indefinite"
+                />
+              </rect>`;
+          });
+
+          // ============================================
+          // SNAKE HEAD WITH EYES AND TONGUE
+          // ============================================
+          function createSnakeHead(x, y) {
+            return `
+              <g class="snake-head">
+                <!-- Head glow -->
+                <ellipse
+                  cx="${x + cellSize/2}"
+                  cy="${y + cellSize/2}"
+                  rx="${cellSize/1.2}"
+                  ry="${cellSize/1.4}"
+                  fill="${colors.glow}"
+                  opacity="0.15"
+                >
+                  <animate
+                    attributeName="opacity"
+                    values="0.15;0.3;0.15"
+                    dur="1.5s"
+                    repeatCount="indefinite"
+                  />
+                </ellipse>
+
+                <!-- Head shape -->
+                <rect
+                  x="${x - 2}"
+                  y="${y - 1}"
+                  width="${cellSize + 4}"
+                  height="${cellSize + 2}"
+                  rx="4"
+                  ry="4"
+                  fill="${colors.snakeHead}"
+                />
+
+                <!-- Left eye -->
+                <circle
+                  cx="${x + 4}"
+                  cy="${y + 4}"
+                  r="2.5"
+                  fill="${colors.snakeEye}"
+                />
+                <circle
+                  cx="${x + 4.5}"
+                  cy="${y + 3.5}"
+                  r="1.2"
+                  fill="#000"
+                />
+
+                <!-- Right eye -->
+                <circle
+                  cx="${x + cellSize - 3}"
+                  cy="${y + 4}"
+                  r="2.5"
+                  fill="${colors.snakeEye}"
+                />
+                <circle
+                  cx="${x + cellSize - 2.5}"
+                  cy="${y + 3.5}"
+                  r="1.2"
+                  fill="#000"
+                />
+
+                <!-- Forked tongue -->
+                <g class="tongue">
+                  <line
+                    x1="${x + cellSize + 2}"
+                    y1="${y + cellSize/2}"
+                    x2="${x + cellSize + 10}"
+                    y2="${y + cellSize/2}"
+                    stroke="${colors.snakeTongue}"
+                    stroke-width="1.5"
+                  />
+                  <line
+                    x1="${x + cellSize + 8}"
+                    y1="${y + cellSize/2}"
+                    x2="${x + cellSize + 13}"
+                    y2="${y + cellSize/2 - 3}"
+                    stroke="${colors.snakeTongue}"
+                    stroke-width="1"
+                  />
+                  <line
+                    x1="${x + cellSize + 8}"
+                    y1="${y + cellSize/2}"
+                    x2="${x + cellSize + 13}"
+                    y2="${y + cellSize/2 + 3}"
+                    stroke="${colors.snakeTongue}"
+                    stroke-width="1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    type="translate"
+                    values="0,0;3,0;0,0;-1,0;0,0"
+                    dur="0.8s"
+                    repeatCount="indefinite"
+                  />
+                </g>
+              </g>`;
+          }
+
+          // ============================================
+          // SNAKE BODY
+          // ============================================
+          function createSnakeBody(path) {
+            let body = '';
+
+            path.forEach((segment, index) => {
+              if (index === 0) return; // Skip head position
+
+              const progress = index / path.length;
+              const opacity = 1 - (progress * 0.4);
+              const size = cellSize - (progress * 3);
+              const offset = (cellSize - size) / 2;
+
+              // Alternate colors for pattern
+              const bodyColor = index % 2 === 0
+                ? colors.snakeBody
+                : colors.snakeBodyAlt;
+
+              // Body segment with scale pattern
+              body += `
+                <g class="snake-segment" opacity="${opacity}">
+                  <rect
+                    x="${segment.x + offset}"
+                    y="${segment.y + offset}"
+                    width="${size}"
+                    height="${size}"
+                    rx="3"
+                    ry="3"
+                    fill="${bodyColor}"
+                  />
+                  <!-- Scale pattern -->
+                  <rect
+                    x="${segment.x + offset + 2}"
+                    y="${segment.y + offset + 2}"
+                    width="${size - 4}"
+                    height="${size - 4}"
+                    rx="2"
+                    ry="2"
+                    fill="none"
+                    stroke="${colors.snakeBodyAlt}"
+                    stroke-width="0.5"
+                    opacity="0.5"
+                  />
+                </g>`;
+            });
+
+            return body;
+          }
+
+          // ============================================
+          // SNAKE MOVEMENT ANIMATION PATH
+          // ============================================
+          function generateSnakeAnimation() {
+            if (eatenCells.length === 0) return '';
+
+            // Create motion path for the snake head
+            let pathD = `M ${eatenCells[0].x + cellSize/2} ${eatenCells[0].y + cellSize/2}`;
+
+            for (let i = 1; i < eatenCells.length; i++) {
+              const prev = eatenCells[i - 1];
+              const curr = eatenCells[i];
+              const midX = (prev.x + curr.x) / 2 + cellSize/2;
+              const midY = (prev.y + curr.y) / 2 + cellSize/2;
+              pathD += ` Q ${midX} ${midY} ${curr.x + cellSize/2} ${curr.y + cellSize/2}`;
+            }
+
+            return `
+              <path
+                id="snakeMotionPath"
+                d="${pathD}"
+                fill="none"
+                stroke="none"
+              />`;
+          }
+
+          // ============================================
+          // STATS DISPLAY
+          // ============================================
+          const svgWidth = gridOffsetX + 52 * (cellSize + cellGap) + 50;
+          const svgHeight = gridOffsetY + 7 * (cellSize + cellGap) + 120;
+
+          const statsY = gridOffsetY + 7 * (cellSize + cellGap) + 30;
+
+          const statsDisplay = `
+            <!-- Stats Bar -->
+            <g class="stats">
+              <!-- Snake Length Indicator -->
+              <text
+                x="${gridOffsetX}"
+                y="${statsY}"
+                fill="${colors.text}"
+                font-family="'Segoe UI', Ubuntu, monospace"
+                font-size="13"
+                font-weight="bold"
+              >
+                🐍 Snake Length: ${snakeLength} segments
+              </text>
+
+              <text
+                x="${gridOffsetX}"
+                y="${statsY + 22}"
+                fill="${colors.text}"
+                font-family="'Segoe UI', Ubuntu, monospace"
+                font-size="13"
+                font-weight="bold"
+              >
+                🔥 Total Commits: ${totalCommits}
+              </text>
+
+              <text
+                x="${gridOffsetX + 280}"
+                y="${statsY}"
+                fill="${colors.text}"
+                font-family="'Segoe UI', Ubuntu, monospace"
+                font-size="13"
+                font-weight="bold"
+              >
+                📊 Total Contributions: ${totalContributions}
+              </text>
+
+              <text
+                x="${gridOffsetX + 280}"
+                y="${statsY + 22}"
+                fill="${colors.text}"
+                font-family="'Segoe UI', Ubuntu, monospace"
+                font-size="13"
+                font-weight="bold"
+              >
+                📏 1 commit = 1 snake segment
+              </text>
+
+              <!-- Legend -->
+              <g transform="translate(${svgWidth - 250}, ${statsY - 5})">
+                <text
+                  x="0"
+                  y="0"
+                  fill="#8B949E"
+                  font-family="'Segoe UI', Ubuntu, monospace"
+                  font-size="11"
+                >
+                  Less
+                </text>
+                <rect x="35" y="-10" width="12" height="12" rx="2" fill="${colors.empty}" />
+                <rect x="52" y="-10" width="12" height="12" rx="2" fill="${colors.level1}" />
+                <rect x="69" y="-10" width="12" height="12" rx="2" fill="${colors.level2}" />
+                <rect x="86" y="-10" width="12" height="12" rx="2" fill="${colors.level3}" />
+                <rect x="103" y="-10" width="12" height="12" rx="2" fill="${colors.level4}" />
+                <rect x="120" y="-10" width="12" height="12" rx="2" fill="${colors.level5}" />
+                <text
+                  x="140"
+                  y="0"
+                  fill="#8B949E"
+                  font-family="'Segoe UI', Ubuntu, monospace"
+                  font-size="11"
+                >
+                  More
+                </text>
+              </g>
+            </g>`;
+
+          // ============================================
+          // DAY LABELS
+          // ============================================
+          const dayLabels = ['Mon', 'Wed', 'Fri'];
+          const dayLabelPositions = [1, 3, 5];
+
+          let dayLabelsHtml = '';
+          dayLabelPositions.forEach((pos, index) => {
+            dayLabelsHtml += `
+              <text
+                x="${gridOffsetX - 10}"
+                y="${gridOffsetY + pos * (cellSize + cellGap) + cellSize/2 + 4}"
+                fill="#8B949E"
+                font-family="'Segoe UI', Ubuntu, monospace"
+                font-size="10"
+                text-anchor="end"
+              >
+                ${dayLabels[index]}
+              </text>`;
+          });
+
+          // ============================================
+          // TITLE
+          // ============================================
+          const title = `
+            <text
+              x="${svgWidth / 2}"
+              y="35"
+              fill="${colors.text}"
+              font-family="'Segoe UI', Ubuntu, monospace"
+              font-size="18"
+              font-weight="bold"
+              text-anchor="middle"
+            >
+              🐍 Contribution Snake
+              <tspan fill="#8B949E" font-size="12">
+                (grows with every commit!)
+              </tspan>
+            </text>
+
+            <!-- Animated underline -->
+            <line
+              x1="${svgWidth/2 - 150}"
+              y1="42"
+              x2="${svgWidth/2 + 150}"
+              y2="42"
+              stroke="${colors.glow}"
+              stroke-width="1"
+              opacity="0.5"
+            >
+              <animate
+                attributeName="opacity"
+                values="0.3;0.8;0.3"
+                dur="3s"
+                repeatCount="indefinite"
+              />
+            </line>`;
+
+          // ============================================
+          // MONTH LABELS
+          // ============================================
+          const months = [
+            'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+            'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
+          ];
+
+          let monthLabels = '';
+          let lastMonth = -1;
+
+          recentWeeks.forEach((week, weekIndex) => {
+            if (week.days.length > 0) {
+              const date = new Date(week.days[0].date);
+              const month = date.getMonth();
+              if (month !== lastMonth) {
+                lastMonth = month;
+                const x = gridOffsetX + weekIndex * (cellSize + cellGap);
+                monthLabels += `
+                  <text
+                    x="${x}"
+                    y="${gridOffsetY - 8}"
+                    fill="#8B949E"
+                    font-family="'Segoe UI', Ubuntu, monospace"
+                    font-size="10"
+                  >
+                    ${months[month]}
+                  </text>`;
+              }
+            }
+          });
+
+          // ============================================
+          // BUILD FINAL SVG
+          // ============================================
+          const headCell = eatenCells.length > 0
+            ? eatenCells[eatenCells.length - 1]
+            : { x: gridOffsetX, y: gridOffsetY };
+
+          const svg = `<?xml version="1.0" encoding="UTF-8"?>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="${svgWidth}"
+            height="${svgHeight}"
+            viewBox="0 0 ${svgWidth} ${svgHeight}"
+          >
+            <defs>
+              <!-- Red glow filter -->
+              <filter id="redGlow" x="-20%" y="-20%" width="140%" height="140%">
+                <feGaussianBlur stdDeviation="3" result="blur" />
+                <feFlood flood-color="${colors.glow}" flood-opacity="0.4" />
+                <feComposite in2="blur" operator="in" />
+                <feMerge>
+                  <feMergeNode />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+
+              <!-- Snake head glow -->
+              <filter id="headGlow" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur stdDeviation="4" result="blur" />
+                <feFlood flood-color="${colors.snakeHead}" flood-opacity="0.6" />
+                <feComposite in2="blur" operator="in" />
+                <feMerge>
+                  <feMergeNode />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+
+              <!-- Eating particle effect -->
+              <radialGradient id="eatParticle">
+                <stop offset="0%" stop-color="${colors.snakeHead}" stop-opacity="0.8" />
+                <stop offset="100%" stop-color="${colors.snakeHead}" stop-opacity="0" />
+              </radialGradient>
+            </defs>
+
+            <style>
+              .contribution-cell {
+                transition: all 0.3s ease;
+              }
+              .snake-head {
+                filter: url(#headGlow);
+              }
+              @keyframes pulse {
+                0%, 100% { opacity: 0.8; }
+                50% { opacity: 1; }
+              }
+              @keyframes slither {
+                0%, 100% { transform: translateX(0); }
+                25% { transform: translateX(1px) translateY(0.5px); }
+                75% { transform: translateX(-1px) translateY(-0.5px); }
+              }
+              .snake-segment {
+                animation: slither 2s ease-in-out infinite;
+              }
+              .snake-segment:nth-child(odd) {
+                animation-delay: 0.5s;
+              }
+            </style>
+
+            <!-- Background -->
+            <rect
+              width="${svgWidth}"
+              height="${svgHeight}"
+              rx="10"
+              ry="10"
+              fill="${colors.background}"
+            />
+
+            <!-- Border glow -->
+            <rect
+              width="${svgWidth - 2}"
+              height="${svgHeight - 2}"
+              x="1"
+              y="1"
+              rx="10"
+              ry="10"
+              fill="none"
+              stroke="${colors.border}"
+              stroke-width="1"
+            />
+
+            <!-- Title -->
+            ${title}
+
+            <!-- Month Labels -->
+            ${monthLabels}
+
+            <!-- Day Labels -->
+            ${dayLabelsHtml}
+
+            <!-- Contribution Grid -->
+            <g class="contribution-grid">
+              ${contributionCells}
+            </g>
+
+            <!-- Eaten Cell Animations -->
+            <g class="eaten-cells">
+              ${eatenAnimations}
+            </g>
+
+            <!-- Snake Motion Path -->
+            ${generateSnakeAnimation()}
+
+            <!-- Snake Body -->
+            <g class="snake-body">
+              ${createSnakeBody(snakePath)}
+            </g>
+
+            <!-- Snake Head -->
+            ${createSnakeHead(headCell.x, headCell.y)}
+
+            <!-- Stats -->
+            ${statsDisplay}
+          </svg>`;
+
+          // Write output files
+          fs.writeFileSync('dist/red-snake.svg', svg);
+          console.log('✅ Generated: dist/red-snake.svg');
+          console.log(`📊 Snake length: ${snakeLength} (based on ${totalCommits} commits)`);
+          console.log(`🔥 Total contributions: ${totalContributions}`);
+          SCRIPT
+
+          node generate-snake.js
+
+      # Step 5: Also generate the Platane snake with red theme
+      - name: Generate Platane Red Snake (Backup)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/red-snake-animated.svg?color_snake=#FF0000&color_dots=#161B22,#67000D,#A50F15,#CB181D,#FF4444
+            dist/red-snake-dark.svg?palette=github-dark&color_snake=#FF0000&color_dots=#161B22,#67000D,#A50F15,#CB181D,#FF4444
+            dist/red-snake.gif?color_snake=#FF0000&color_dots=#161B22,#67000D,#A50F15,#CB181D,#FF4444
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Step 6: Deploy everything
+      - name: Deploy to Output Branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          commit_message: "🐍 Update red contribution snake [skip ci]"
