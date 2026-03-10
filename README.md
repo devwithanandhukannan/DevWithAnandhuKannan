@@ -9,18 +9,11 @@ Dev
 ---
 
 <br/>
-
+<div align="center">
 <img src="https://skillicons.dev/icons?i=python,javascript,typescript,java,c,cpp,dart,react,flutter,redux,tailwind,bootstrap,html,css,django,flask,nodejs,express,mongodb,mysql,postgres,docker,aws,git,github,nginx,linux,androidstudio,figma,pytorch,tensorflow,opencv,firebase,kali"/>
+</div>
 
----
 
-
-<picture>
-  <img
-    alt="Red Contribution Snake"
-    src="https://raw.githubusercontent.com/DevWithAnandhuKannan/DevWithAnandhuKannan/output/red-snake.svg"
-  />
-</picture>
 
 <div align="center">
 
