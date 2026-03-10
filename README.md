@@ -14,7 +14,7 @@ Dev
 
 ---
 
-<img src="https://raw.githubusercontent.com/DevWithAnandhuKannan/DevWithAnandhuKannan/output/github-snake-dark.svg" alt="GitHub Contribution Snake" />
+<img src="https://raw.githubusercontent.com/DevWithAnandhuKannan/DevWithAnandhuKannan/output/red-snake.svg" alt="GitHub Contribution Snake" />
 
 ---
 
