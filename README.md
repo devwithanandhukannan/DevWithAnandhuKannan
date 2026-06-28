@@ -6,15 +6,15 @@
 
 # Anandhu Kannan
 
-<p>
-Full-Stack Engineer &nbsp;·&nbsp; Cybersecurity Researcher &nbsp;·&nbsp; AI/ML Explorer<br/>
-<sub>Building robust systems by day · Reversing binaries by night</sub>
-</p>
-
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%23C0392B.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anandhu-kannan/)
-[![X](https://img.shields.io/badge/X-%23C0392B.svg?style=for-the-badge&logo=x&logoColor=white)](https://x.com/_Anandhu_Kannan)
+<div align="center" style="margin-top:8px;">
+     <a href="https://www.linkedin.com/in/anandhu-kannan/" style="background:#5e0505;color:#fff;padding:8px 14px;border-radius:12px;margin:6px;display:inline-block;text-decoration:none;font-weight:600;">🔗 LinkedIn</a>
+     <a href="https://x.com/_Anandhu_Kannan" style="background:#5e0505;color:#fff;padding:8px 14px;border-radius:12px;margin:6px;display:inline-block;text-decoration:none;font-weight:600;">🐦 X</a>
+     <a href="https://medium.com/@anandhukannan" style="background:#5e0505;color:#fff;padding:8px 14px;border-radius:12px;margin:6px;display:inline-block;text-decoration:none;font-weight:600;">✍️ Medium</a>
+     <a href="https://anandhu-kannan.vercel.app" style="background:#5e0505;color:#fff;padding:8px 14px;border-radius:12px;margin:6px;display:inline-block;text-decoration:none;font-weight:600;">🖥️ Portfolio</a>
+     <a href="mailto:connect.anandhukannan@gmail.com" style="background:#5e0505;color:#fff;padding:8px 14px;border-radius:12px;margin:6px;display:inline-block;text-decoration:none;font-weight:600;">✉️ Email</a>
+</div>
 [![Medium](https://img.shields.io/badge/Medium-%23C0392B.svg?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@anandhukannan)
 [![Portfolio](https://img.shields.io/badge/Portfolio-%23C0392B.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://anandhu-kannan.vercel.app)
 [![Email](https://img.shields.io/badge/Email-%23C0392B.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:connect.anandhukannan@gmail.com)
