@@ -1,59 +1,6 @@
-<!--
-  ╔══════════════════════════════════════════════════════════════════╗
-  ║         ANANDHU KANNAN — GITHUB PROFILE README                  ║
-  ║         Design: Red Cube · Minimalist · 2040                    ║
-  ╚══════════════════════════════════════════════════════════════════╝
--->
-
 <div align="center">
 
-<!-- ── ANIMATED CUBE SVG ── -->
-<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <style>
-      .cube-group { animation: rotateCube 12s linear infinite; transform-origin: 60px 60px; }
-      @keyframes rotateCube {
-        0%   { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-      }
-      .pulse { animation: pulse 3s ease-in-out infinite; }
-      @keyframes pulse {
-        0%, 100% { opacity: 0.5; }
-        50%       { opacity: 1; }
-      }
-    </style>
-  </defs>
-  <!-- outer ring -->
-  <rect x="8" y="8" width="104" height="104" rx="12"
-        fill="none" stroke="#C0392B" stroke-width="0.8" opacity="0.25"/>
-  <!-- cube isometric faces -->
-  <g class="cube-group">
-    <!-- top face -->
-    <polygon points="60,22 94,40 60,58 26,40"
-             fill="none" stroke="#C0392B" stroke-width="1.2"/>
-    <!-- left face -->
-    <polygon points="26,40 60,58 60,96 26,78"
-             fill="rgba(192,57,43,0.06)" stroke="#C0392B" stroke-width="1.2"/>
-    <!-- right face -->
-    <polygon points="94,40 60,58 60,96 94,78"
-             fill="rgba(192,57,43,0.10)" stroke="#C0392B" stroke-width="1.2"/>
-  </g>
-  <!-- center dot -->
-  <circle cx="60" cy="60" r="3" fill="#C0392B" class="pulse"/>
-  <!-- corner dots -->
-  <circle cx="60" cy="22" r="2" fill="#C0392B" opacity="0.6"/>
-  <circle cx="94" cy="40" r="2" fill="#C0392B" opacity="0.6"/>
-  <circle cx="26" cy="40" r="2" fill="#C0392B" opacity="0.6"/>
-  <circle cx="60" cy="58" r="2" fill="#C0392B" opacity="0.6"/>
-  <circle cx="60" cy="96" r="2" fill="#C0392B" opacity="0.4"/>
-  <circle cx="94" cy="78" r="2" fill="#C0392B" opacity="0.4"/>
-  <circle cx="26" cy="78" r="2" fill="#C0392B" opacity="0.4"/>
-</svg>
-
-<br/>
-
-<!-- ── HEADER ── -->
-<img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=13&duration=3000&pause=1000&color=C0392B&center=true&vCenter=true&width=480&lines=%2F%2F+sys.identity+%E2%80%94+build+2040;Full-Stack+Engineer+%C2%B7+Security+Researcher+%C2%B7+AI%2FML;Building+at+the+edge+of+what+compiles." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=14&duration=3000&pause=1000&color=C0392B&center=true&vCenter=true&width=500&lines=%2F%2F+sys.identity+%E2%80%94+build+2040;Full-Stack+Engineer+%C2%B7+Security+Researcher;Building+at+the+edge+of+what+compiles." alt="Typing SVG" />
 
 <br/><br/>
 
@@ -66,7 +13,6 @@ Full-Stack Engineer &nbsp;·&nbsp; Cybersecurity Researcher &nbsp;·&nbsp; AI/ML
 
 <br/>
 
-<!-- ── SOCIAL LINKS ── -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%23C0392B.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anandhu-kannan/)
 [![X](https://img.shields.io/badge/X-%23C0392B.svg?style=for-the-badge&logo=x&logoColor=white)](https://x.com/_Anandhu_Kannan)
 [![Medium](https://img.shields.io/badge/Medium-%23C0392B.svg?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@anandhukannan)
@@ -79,7 +25,6 @@ Full-Stack Engineer &nbsp;·&nbsp; Cybersecurity Researcher &nbsp;·&nbsp; AI/ML
 
 <br/>
 
-<!-- ── LANGUAGES ── -->
 <details open>
 <summary><b>⬡ &nbsp;Languages</b></summary>
 <br/>
@@ -89,7 +34,7 @@ Full-Stack Engineer &nbsp;·&nbsp; Cybersecurity Researcher &nbsp;·&nbsp; AI/ML
 ![Python](https://img.shields.io/badge/Python-0C0A0A?style=flat-square&logo=python&logoColor=C0392B)
 ![TypeScript](https://img.shields.io/badge/TypeScript-0C0A0A?style=flat-square&logo=typescript&logoColor=C0392B)
 ![JavaScript](https://img.shields.io/badge/JavaScript-0C0A0A?style=flat-square&logo=javascript&logoColor=C0392B)
-![Java](https://img.shields.io/badge/Java-0C0A0A?style=flat-square&logo=coffeescript&logoColor=C0392B)
+![Java](https://img.shields.io/badge/Java-0C0A0A?style=flat-square&logo=oracle&logoColor=C0392B)
 ![C](https://img.shields.io/badge/C-0C0A0A?style=flat-square&logo=c&logoColor=C0392B)
 ![C++](https://img.shields.io/badge/C++-0C0A0A?style=flat-square&logo=cplusplus&logoColor=C0392B)
 ![Dart](https://img.shields.io/badge/Dart-0C0A0A?style=flat-square&logo=dart&logoColor=C0392B)
@@ -101,7 +46,6 @@ Full-Stack Engineer &nbsp;·&nbsp; Cybersecurity Researcher &nbsp;·&nbsp; AI/ML
 
 <br/>
 
-<!-- ── FRONTEND & MOBILE ── -->
 <details open>
 <summary><b>⬡ &nbsp;Frontend &amp; Mobile</b></summary>
 <br/>
@@ -122,7 +66,6 @@ Full-Stack Engineer &nbsp;·&nbsp; Cybersecurity Researcher &nbsp;·&nbsp; AI/ML
 
 <br/>
 
-<!-- ── BACKEND ── -->
 <details open>
 <summary><b>⬡ &nbsp;Backend</b></summary>
 <br/>
@@ -140,7 +83,6 @@ Full-Stack Engineer &nbsp;·&nbsp; Cybersecurity Researcher &nbsp;·&nbsp; AI/ML
 
 <br/>
 
-<!-- ── DATA ── -->
 <details open>
 <summary><b>⬡ &nbsp;Databases</b></summary>
 <br/>
@@ -157,7 +99,6 @@ Full-Stack Engineer &nbsp;·&nbsp; Cybersecurity Researcher &nbsp;·&nbsp; AI/ML
 
 <br/>
 
-<!-- ── DEVOPS ── -->
 <details open>
 <summary><b>⬡ &nbsp;DevOps &amp; Cloud</b></summary>
 <br/>
@@ -176,7 +117,6 @@ Full-Stack Engineer &nbsp;·&nbsp; Cybersecurity Researcher &nbsp;·&nbsp; AI/ML
 
 <br/>
 
-<!-- ── AI / ML ── -->
 <details open>
 <summary><b>⬡ &nbsp;AI / ML</b></summary>
 <br/>
@@ -192,7 +132,6 @@ Full-Stack Engineer &nbsp;·&nbsp; Cybersecurity Researcher &nbsp;·&nbsp; AI/ML
 
 <br/>
 
-<!-- ── SECURITY ── -->
 <details open>
 <summary><b>⬡ &nbsp;Offensive Security &amp; Reverse Engineering</b></summary>
 <br/>
@@ -217,7 +156,6 @@ Full-Stack Engineer &nbsp;·&nbsp; Cybersecurity Researcher &nbsp;·&nbsp; AI/ML
 
 <br/>
 
-<!-- ── GITHUB STATS ── -->
 <div align="center">
 
 <img height="160"
@@ -241,7 +179,6 @@ Full-Stack Engineer &nbsp;·&nbsp; Cybersecurity Researcher &nbsp;·&nbsp; AI/ML
 
 <br/>
 
-<!-- ── CONTRIBUTION SNAKE ── -->
 <div align="center">
 
 <sub><code>◆ &nbsp; commit activity — live</code></sub>
@@ -266,7 +203,6 @@ Full-Stack Engineer &nbsp;·&nbsp; Cybersecurity Researcher &nbsp;·&nbsp; AI/ML
 
 <br/>
 
-<!-- ── QUOTE ── -->
 <div align="center">
 
 <sub>
