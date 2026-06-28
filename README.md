@@ -1,85 +1,120 @@
 <div align="center">
 
-# Anandhu Kannan
+```
+╔══════════════════════════════════════════════════════════════╗
+║  anandhu kannan — writing code by day, reading memory dumps  ║
+║  by night, and flirting with segfaults in between            ║
+╚══════════════════════════════════════════════════════════════╝
+```
 
-<p>
-Full-Stack Engineer · Cybersecurity Researcher · AI/ML Explorer
+*full-stack developer · mobile engineer · ml tinkerer · certified linux menace*
+
+> i build apps that (mostly) don't crash, reverse-engineer things i probably shouldn't, and write clean architecture so well even my compiler blushes. if you're reading this, you're already my type — recursive and well-structured.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anandhu-kannan/)
+[![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/_Anandhu_Kannan)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@anandhukannan)
+[![Portfolio](https://img.shields.io/badge/Portfolio-111?style=flat-square&logo=vercel&logoColor=white)](https://anandhu-kannan.vercel.app)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:connect.anandhukannan@gmail.com)
+
+</div>
+
+---
+
+<img align="right" width="200" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXo2Mzcza3RwcWNycWd3c2E2czlqeDFud2tmYXFtdDV4Yndpb2g1eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Rpl1sod1vCXK0L2SUN/giphy.gif" alt="dev meme" />
+
+### `$ whoami`
+
+```python
+class AnandhKannan:
+    role       = "full-stack & mobile developer"
+    languages  = ["Python", "TypeScript", "Dart", "Java", "C/C++", "ARM Assembly"]
+    interests  = ["mobile apps", "clean architecture", "rev-eng", "ml"]
+    hacker     = True
+    status     = "currently debugging life.exe"
+```
+
+<br clear="right"/>
+
+---
+
+### skills
+
+<details>
+<summary><b>languages</b></summary>
 <br/>
-<sub>Building reliable systems by day · reversing binaries by night</sub>
-</p>
+<img src="https://skillicons.dev/icons?i=python,javascript,typescript,java,c,cpp,dart&perline=10" height="36" />
 
+> + ARM Assembly — because sometimes you need to get *really* close to the metal
+</details>
+
+<details>
+<summary><b>frontend & mobile</b></summary>
 <br/>
+<img src="https://skillicons.dev/icons?i=react,flutter,redux,tailwind,bootstrap,html,css&perline=10" height="36" />
 
-- 🔗 [LinkedIn](https://www.linkedin.com/in/anandhu-kannan/)
-- 🐦 [X](https://x.com/_Anandhu_Kannan)
-- ✍️ [Medium](https://medium.com/@anandhukannan)
-- 🖥️ [Portfolio](https://anandhu-kannan.vercel.app)
-- ✉️ [Email](mailto:connect.anandhukannan@gmail.com)
+> flutter mobile apps · responsive UIs that actually work on phones
+</details>
 
+<details>
+<summary><b>backend & databases</b></summary>
+<br/>
+<img src="https://skillicons.dev/icons?i=django,flask,nodejs,express,dotnet,mongodb,mysql,postgres,firebase&perline=10" height="36" />
+
+> .NET with clean architecture — onion layers so clean you could cry
+</details>
+
+<details>
+<summary><b>devops & tools</b></summary>
+<br/>
+<img src="https://skillicons.dev/icons?i=docker,aws,git,github,nginx,linux,androidstudio,figma&perline=10" height="36" />
+</details>
+
+<details>
+<summary><b>ai / ml</b></summary>
+<br/>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv&perline=10" height="36" />
+</details>
+
+<details>
+<summary><b>cybersecurity</b></summary>
+<br/>
+<img src="https://skillicons.dev/icons?i=kali,linux&perline=10" height="36" />
+
+**tools:** Nmap · Burp Suite · Metasploit · Wireshark · SQLmap · Hydra · **Ghidra**
+
+> reverse engineering binaries for fun and not-so-profit
+</details>
+
+---
+
+### contribution graph
+
+<div align="center">
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/DevWithAnandhuKannan/DevWithAnandhuKannan/output/github-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/DevWithAnandhuKannan/DevWithAnandhuKannan/output/github-snake.svg"
+  />
+  <img
+    alt="snake eating my contributions one commit at a time"
+    src="https://raw.githubusercontent.com/DevWithAnandhuKannan/DevWithAnandhuKannan/output/github-snake.svg"
+  />
+</picture>
 </div>
 
 ---
 
-<br/>
-
-**Skills:**  🧠 AI/ML · 🛠️ Systems · ⚙️ Backend · 🧩 Reverse Engineering · 🔐 Security
-
-<br/>
-
-
-
-<br/>
-
----
-
-<br/>
-
 <div align="center">
 
-<img height="160"
-     src="https://github-readme-stats.vercel.app/api?username=DevWithAnandhuKannan&show_icons=true&theme=radical&title_color=8B0000&icon_color=8B0000&text_color=111111&border_color=8B0000&hide_border=false&bg_color=ffffff"
-     alt="GitHub Stats"/>
-&nbsp;&nbsp;
-<img height="160"
-     src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevWithAnandhuKannan&layout=compact&theme=radical&title_color=8B0000&text_color=111111&border_color=8B0000&hide_border=false&bg_color=ffffff"
-     alt="Top Languages"/>
-
-</div>
-
-<br/>
-
----
-
-<br/>
-
-<div align="center">
-
-<sub><code>◆ &nbsp; Commit activity — live</code></sub>
-
-<br/>
-
-<img alt="Red snake" src="./assets/red-snake.svg" style="max-width:100%;height:auto;" />
-
-</div>
-
-<br/>
-
----
-
-<br/>
-
-<div align="center">
-
-<sub>
-<i>"Are you a zero-day exploit? Because you just bypassed all my firewalls<br/>and completely compromised my system."</i>
-</sub>
+<img src="https://skillicons.dev/icons?i=python,javascript,typescript,java,c,cpp,dart,react,flutter,redux,tailwind,bootstrap,html,css,django,flask,nodejs,express,dotnet,mongodb,mysql,postgres,docker,aws,git,github,nginx,linux,androidstudio,figma,pytorch,tensorflow,opencv,firebase,kali" />
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=DevWithAnandhuKannan&color=C0392B&style=flat-square&label=profile+views" alt="Profile Views"/>
-
-<br/><br/>
-
-<sub><code>◆ &nbsp; anandhu-kannan · 2040</code></sub>
+<img src="https://komarev.com/ghpvc/?username=DevWithAnandhuKannan&color=blueviolet&style=flat-square&label=profile+views" alt="Profile Views" />
 
 </div>
