@@ -25,19 +25,11 @@
 
 <br/>
 
-### 🛠️ Tech Stack & Expertise
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,javascript,typescript,java,c,cpp,dart,dotnet,react,flutter,redux,tailwind,bootstrap,html,css,django,flask,nodejs,express,mongodb,mysql,postgres,docker,aws,git,github,nginx,linux,androidstudio,figma,pytorch,tensorflow,opencv,firebase,kali&perline=12" alt="My Skills Grid"/>
-</div>
-
-<br/>
-
 <div align="center">
 
-![ARM ASM](https://img.shields.io/badge/ARM_Assembly-0C0A0A?style=flat-square&logo=arm&logoColor=C0392B)
-![Ghidra](https://img.shields.io/badge/Ghidra_RE-0C0A0A?style=flat-square&logo=gnu&logoColor=C0392B)
-![Clean Architecture](https://img.shields.io/badge/.NET_Clean_Arch-0C0A0A?style=flat-square&logo=dotnet&logoColor=C0392B)
+[![ARM ASM](https://camo.githubusercontent.com/bbc5698a9a9b772edf754e55073783eb6280902d7815cd2697efe03364bbe72b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f41524d5f417373656d626c792d3043304130413f7374796c653d666c61742d737175617265266c6f676f3d61726d266c6f676f436f6c6f723d433033393242)](https://camo.githubusercontent.com/bbc5698a9a9b772edf754e55073783eb6280902d7815cd2697efe03364bbe72b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f41524d5f417373656d626c792d3043304130413f7374796c653d666c61742d737175617265266c6f676f3d61726d266c6f676f436f6c6f723d433033393242)
+[![Ghidra](https://camo.githubusercontent.com/a541bd265660f1e00e2ea9e145861da47c1949221057fac70da2daecc3854095/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4768696472615f52452d3043304130413f7374796c653d666c61742d737175617265266c6f676f3d676e75266c6f676f436f6c6f723d433033393242)](https://camo.githubusercontent.com/a541bd265660f1e00e2ea9e145861da47c1949221057fac70da2daecc3854095/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4768696472615f52452d3043304130413f7374796c653d666c61742d737175617265266c6f676f3d676e75266c6f676f436f6c6f723d433033393242)
+[![Clean Architecture](https://camo.githubusercontent.com/b4d5e724a07cdc62d9feb4bb06309059d609d57677aa1698fa351f189e174ac5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2e4e45545f436c65616e5f417263682d3043304130413f7374796c653d666c61742d737175617265266c6f676f3d646f746e6574266c6f676f436f6c6f723d433033393242)](https://camo.githubusercontent.com/b4d5e724a07cdc62d9feb4bb06309059d609d57677aa1698fa351f189e174ac5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2e4e45545f436c65616e5f417263682d3043304130413f7374796c653d666c61742d737175617265266c6f676f3d646f746e6574266c6f676f436f6c6f723d433033393242)
 
 </div>
 
@@ -84,34 +76,3 @@
 
 ---
 
-<br/>
-
-<div align="center">
-
-<sub><code>◆ &nbsp; tracking down that one production bug</code></sub>
-
-<br/><br/>
-
-<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXo2Mzcza3RwcWNycWd3c2E2czlqeDFud2tmYXFtdDV4Yndpb2g1eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Rpl1sod1vCXK0L2SUN/giphy.gif" alt="Meme Video" width="65%" style="border-radius: 6px;" />
-
-</div>
-
----
-
-<br/>
-
-<div align="center">
-
-<sub>
-<i>"Are you a zero-day exploit? Because you just bypassed all my firewalls<br/>and completely compromised my system."</i>
-</sub>
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=DevWithAnandhuKannan&color=C0392B&style=flat-square&label=profile+views" alt="Profile Views"/>
-
-<br/><br/>
-
-<sub><code>◆ &nbsp; anandhu-kannan · 2040</code></sub>
-
-</div>
