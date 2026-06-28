@@ -1,3 +1,10 @@
+<!--
+  ╔══════════════════════════════════════════════════════════════════╗
+  ║         ANANDHU KANNAN — GITHUB PROFILE README                  ║
+  ║         Design: Red Cube · Minimalist · 2040                    ║
+  ╚══════════════════════════════════════════════════════════════════╝
+-->
+
 <div align="center">
 
 <!-- ── ANIMATED CUBE SVG ── -->
