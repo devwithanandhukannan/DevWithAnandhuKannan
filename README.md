@@ -40,39 +40,8 @@
 <br/>
 
 <div align="center">
-
-<img height="160"
-     src="https://github-readme-stats.vercel.app/api?username=DevWithAnandhuKannan&show_icons=true&theme=transparent&title_color=C0392B&icon_color=C0392B&text_color=C4B0AD&border_color=1E1614&hide_border=false&bg_color=0C0A0A"
-     alt="GitHub Stats"/>
-&nbsp;&nbsp;
-<img height="160"
-     src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevWithAnandhuKannan&layout=compact&theme=transparent&title_color=C0392B&text_color=C4B0AD&border_color=1E1614&hide_border=false&bg_color=0C0A0A"
-     alt="Top Languages"/>
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=DevWithAnandhuKannan&theme=transparent&background=0C0A0A&border=1E1614&ring=C0392B&fire=C0392B&currStreakLabel=C0392B&sideLabels=C4B0AD&dates=5C4040&currStreakNum=F0EAE8&sideNums=F0EAE8"
-     alt="GitHub Streak"/>
-
+     <picture>
+          <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/DevWithAnandhuKannan/DevWithAnandhuKannan/output/red-snake.svg" style="max-width:100%;height:auto;" />
+     </picture>
 </div>
-
----
-
-<br/>
-
-<div align="center">
-
-<sub><code>◆ &nbsp; commit activity — live</code></sub>
-
-<br/><br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DevWithAnandhuKannan/DevWithAnandhuKannan/output/github-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DevWithAnandhuKannan/DevWithAnandhuKannan/output/github-snake.svg"/>
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/DevWithAnandhuKannan/DevWithAnandhuKannan/output/red-snake.svg" width="100%"/>
-</picture>
-
-</div>
-
----
 
